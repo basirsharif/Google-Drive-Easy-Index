@@ -288,7 +288,7 @@ function list(path) {
   </div>
     <div id="list" class="list-group text-break">
     </div>
-  	<div class="${UI.file_count_alert_class} text-center d-none" role="alert" id="count">Total <span class="number text-center"></span> items</div>
+  	<div class="${UI.file_count_alert_class} text-center d-none" role="alert" id="count">Total > <span class="number text-center"></span> items</div>
     <div id="readme_md" style="display:none; padding: 20px 20px;"></div>
     </div>
     `;
@@ -527,7 +527,7 @@ function render_search_result_list() {
   <div id="list" class="list-group text-break">
   </div>
   </div>
-  <div class="${UI.file_count_alert_class} text-center d-none" role="alert" id="count">Total <span class="number text-center"></span> items</div>
+  <div class="${UI.file_count_alert_class} text-center d-none" role="alert" id="count">Total > <span class="number text-center"></span> items</div>
   <div id="readme_md" style="display:none; padding: 20px 20px;"></div>
   </div>
   `;
